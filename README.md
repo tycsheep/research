@@ -12,11 +12,11 @@ You can use your own images
 
 ### Usage
 ##### Folder Tree
->dataset
+> dataset
 >> mask
 >> img
->input
->output
+> input
+> output
 >> preprocess
 >> slic
 >> slic_merge
