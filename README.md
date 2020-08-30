@@ -12,19 +12,19 @@ You can use your own images
 
 ### Usage
 ##### Folder Tree
->-- dataset
->>-- mask
->>-- img
->-- input
->-- output
->>-- preprocess
->>-- slic
->>-- slic_merge
->>-- paddy
->>-- paddy_mask
->>-- seedlings
->>>-- img
->>>-- position
+>dataset
+>>mask
+>>img
+>input
+>output
+>>preprocess
+>>slic
+>>slic_merge
+>>paddy
+>>paddy_mask
+>>seedlings
+>>>img
+>>>position
 
 ##### build the dataset
     The labeled binary imgs in `./dataset/mask/` should be naming like: **`label`\_`imgName`.jpg**
