@@ -5,7 +5,8 @@
 >> 1. result image with the detected rice seedlings drawing on the image.
 >> 2. .csv file with the position of detected rice seedlings.
 ##### Flowchart of rice seedling detection
-![img](./demo_img/detection.jpg | width=300)
+<img src="./demo_img/detection.jpg" width="300">
+<!-- ![img](./demo_img/detection.jpg | width=300) -->
 
 ### Acknowledgement
 The images used in the research were provided by GEOSAT Aerospace & Technology Inc.
