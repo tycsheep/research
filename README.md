@@ -1,8 +1,14 @@
-# research
+# Rice Seedling Detection
+> This notebook detects rice seedlings from the input UAV images.
+> for each input image:
+>> output: 
+>> 1. result image with the detected rice seedlings drawing on the image.
+>> 2. .csv file with the position of detected rice seedlings.
+##### Flowchart of rice seedling detection
+![img](./demo_img/detection.jpg)
 
 ### Acknowledgement
 The images used in the research were provided by GEOSAT Aerospace & Technology Inc.
-You can use your own images
 
 ### Needed Package    
     * numpy
