@@ -7,24 +7,25 @@ This notebook detects rice seedlings from the input UAV images. The original ima
 
 ##### Example
 `input image`
+
 <img src="./demo_img/demo.png" width=300>
 
 `output images`
 <table style="text-align: center;" cellpadding="0" border='0'>
     <tr>
-        <td> 
+        <td style="text-align: center;"> 
             <img src="./demo_img/Gray_blob.jpg"  alt="1" width = w25p>
             <p>Preprocess: grayscale</p>
         </td>
-        <td> 
+        <td style="text-align: center;"> 
             <img src="./demo_img/CLAHE_blob.jpg"  alt="2" width = w25p>
             <p>Preprocess: CLAHE grayscale</p>
         </td>
-        <td> 
+        <td style="text-align: center;"> 
             <img src="./demo_img/TGI_blob.jpg"  alt="3" width = w25p>
             <p>Preprocess: TGI</p>
         </td>
-        <td> 
+        <td style="text-align: center;"> 
             <img src="./demo_img/VARI_blob.jpg"  alt="4" width = w25p>
             <p>Preprocess: VARI</p>
         </td>
@@ -55,6 +56,7 @@ The camera was mounted on an UAV to fly along the designated route.
  <img src="./demo_img/field.png" width=400>
 
 `./input/`
+
  <img src="./demo_img/input.png" width=w100>
 
 ## Rice Seedling Detection
@@ -80,9 +82,11 @@ The labeled binary images in `./dataset/mask/` should be named as **`labelName`\
 White pixels in a labeled image represent the labeled area.
 
 `./dataset/mask/`
+
  <img src="./demo_img/dataset_mask.png" width=w100>
 
 `./dataset/img/`
+
  <img src="./demo_img/dataset_img.png" width=w100>
 
 
