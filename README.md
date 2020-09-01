@@ -2,8 +2,8 @@
 
 This notebook detects rice seedlings from the input UAV images. The original images aren't shown in this repository.
 > For each input image, output: 
->> 1. Four result images with the detected rice seedlings drawing on the image.
->> 2. .csv file with the position of detected rice seedlings.
+> 1. Four result images with the detected rice seedlings drawing on the image.
+> 2. .csv files with the position of detected rice seedlings.
 
 ##### Example
 `input image`
@@ -13,24 +13,31 @@ This notebook detects rice seedlings from the input UAV images. The original ima
 `output images`
 <table style="text-align: center;" cellpadding="0" border='0'>
     <tr>
-        <td style="text-align: center;"> 
-            <img src="./demo_img/Gray_blob.jpg"  alt="1" width = w25p>
+        <td> 
+            <img src="./demo_img/Gray_blob.jpg"  alt="1" width = 300px>
             <p>Preprocess: grayscale</p>
         </td>
-        <td style="text-align: center;"> 
-            <img src="./demo_img/CLAHE_blob.jpg"  alt="2" width = w25p>
+        <td> 
+            <img src="./demo_img/CLAHE_blob.jpg"  alt="2" width = 300px>
             <p>Preprocess: CLAHE grayscale</p>
         </td>
-        <td style="text-align: center;"> 
-            <img src="./demo_img/TGI_blob.jpg"  alt="3" width = w25p>
+    </tr>
+    <tr>
+        <td> 
+            <img src="./demo_img/TGI_blob.jpg"  alt="3" width = 300px>
             <p>Preprocess: TGI</p>
         </td>
-        <td style="text-align: center;"> 
-            <img src="./demo_img/VARI_blob.jpg"  alt="4" width = w25p>
+        <td> 
+            <img src="./demo_img/VARI_blob.jpg"  alt="4" width = 300px>
             <p>Preprocess: VARI</p>
         </td>
     </tr>
 </table>
+
+`output csv files`
+
+<img src="./demo_img/csv.png">
+
 
 
 ### Acknowledgement
@@ -42,9 +49,9 @@ The camera was mounted on an UAV to fly along the designated route.
 
 **Captured date**: `6th, April, 2017`
 
-**Image resolution**: 6000*4000 pixels
+**Image resolution**: `6000*4000 pixels`
 
-**GSD**: about 0.72 cm/pixel
+**GSD**: about `0.72 cm/pixel`
 
 **Flight place**: **TYDARES**, Taoyuan District Agricultural Research and Extension Station (`24°57'07.6"N, 121°01'41.8"E`)
 
@@ -108,21 +115,21 @@ White pixels in a labeled image represent the labeled area.
 `The preprocessing images:`
 <table style="text-align: center;">
     <tr>
-        <td style="border: none;"> 
+        <td> 
             <img src="./demo_img/gray.png"  alt="1" width = 300px>
             <p>Grayscale image</p>
         </td>
-        <td style="border: none;"> 
+        <td> 
             <img src="./demo_img/clahe.png"  alt="2" width = 300px>
             <p>CLAHE grayscale image</p>
         </td>
     </tr>
     <tr>
-        <td style="border: none;"> 
+        <td> 
             <img src="./demo_img/tgi.png"  alt="3" width = 300px>
             <p>TGI image</p>
         </td>
-        <td style="border: none;"> 
+        <td> 
             <img src="./demo_img/vari.png"  alt="4" width = 300px>
             <p>VARI image</p>
         </td>
