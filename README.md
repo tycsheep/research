@@ -1,6 +1,6 @@
 # Rice Seedling Detection
 
-This notebook detects rice seedlings from the input UAV images. The original images aren't shown in this repository.
+This notebook detects rice seedlings from the input UAV images.
 > For each input image, output: 
 > 1. Four result images with the detected rice seedlings drawing on the image.
 > 2. .csv files with the position of detected rice seedlings.
